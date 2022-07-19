@@ -8,13 +8,13 @@
     src: url(/fonts/Outfit/Outfit-Regular.ttf);
 }
 
-.wrapper {
+/*.wrapper {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
-}
+}*/
 
 .title,
 .subtitle {
@@ -29,4 +29,17 @@ a {
 ._container {
     max-width: 1360px;
     margin: 0 auto;
+}
+.section {
+    max-width: 1440px;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    
+}
+.section__history {
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    
 }
