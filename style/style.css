@@ -7,7 +7,10 @@
     font-family: 'Outfit';
     src: url(/fonts/Outfit/Outfit-Regular.ttf);
 }
-
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 /*.wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -38,8 +41,32 @@ a {
     
 }
 .history {
-    max-width: 1360px;
+    max-width: 1440px;
+    background-image: url(../assets/history/back.png);
+}
+.history__wrapper {
+    max-width: 1330px;
+    background-color: rgba(31, 39, 50, 0.85);
     display: flex;
     justify-content: space-between;
-    
+    margin: 140px 40px;
+}
+.history__col-2 {
+    margin: 80px 70px;
+}
+.history__title-1 {
+    margin: 90px 110px 11px 60px;
+}
+.history__title-2 {
+    margin: 90px 94px 11px 105px;
+}
+h2 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
