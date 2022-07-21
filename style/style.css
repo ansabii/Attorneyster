@@ -37,7 +37,7 @@ a {
     justify-content:center;
     
 }
-.section__history {
+.history {
     max-width: 1360px;
     display: flex;
     justify-content: space-between;
