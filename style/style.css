@@ -29,13 +29,12 @@ a {
 }
 
 
-._container {
-    max-width: 1360px;
+.wrapper {
+    max-width: 1440px;
     margin: 0 auto;
 }
 .section {
-    max-width: 1440px;
-    background-color: black;
+    max-width: 100%;
     display: flex;
     justify-content:center;
     
@@ -52,15 +51,21 @@ a {
     margin: 140px 40px;
 }
 .history__col-2 {
-    margin: 80px 70px;
+    margin: 80px 30px 70px 30px;
 }
-.history__title-1 {
-    margin: 90px 110px 11px 60px;
+.history__title {
+    margin: 90px 60px 11px 50px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 .history__title-2 {
     margin: 90px 94px 11px 105px;
-}
-h2 {
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 400;
