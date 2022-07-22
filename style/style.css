@@ -44,7 +44,7 @@ a {
     margin-bottom: 140px;
     background-color: rgba(31, 39, 50, 0.85);
 }
-.history__box {
+.history__inner {
     max-width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -63,11 +63,10 @@ a {
     margin-bottom: 70px;
 }
 .history__col-1 {
-    margin-right: 30px;
-    
+    margin-right: 70px;
 }
 .history__col-3 {
-    margin-right: 30px;
+    margin-left: 60px;
     flex-basis: 105px;
 }
 .history__title {
@@ -117,6 +116,8 @@ a {
     color: #D7D7D7;
 }
 .history__content-3 {
+    margin-bottom: 37px;
+    margin-left: 55px;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 400;
@@ -124,8 +125,6 @@ a {
     line-height: 32px;
     letter-spacing: 0.4px;
     color: #D7D7D7;
-    margin-bottom: 37px;
-    margin-left: 55px;
 }
 .history__subtitle-3 {
     display: flex;
@@ -165,12 +164,21 @@ a {
     max-width: 100%;
     background-color: #161D27;
 }
-.opinions__box {
+.opinions__inner {
     margin-right: 50px;
     margin-left: 50px;
     
 }
+.opinions__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
 .opinions__title {
+    margin-top: 124px;
+    margin-bottom: 11px;
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 400;
@@ -179,4 +187,69 @@ a {
     text-align: center;
     letter-spacing: 0.4px;
     color: #FFFFFF;
+}
+.opinions__content {
+    display: flex;
+    padding-bottom: 180px;
+}
+.opinions__box {
+    background-color: #2E3947;
+    border-radius: 1px 1px 1px 40px;
+    padding: 50px;
+}
+.opinions__box {
+    background-color: #2E3947;
+    border-radius: 1px 1px 1px 40px;
+    padding: 50px;
+}
+.opinions__box-reverse {
+    background-color: #2E3947;
+    border-radius: 40px 1px 1px 1px;
+    padding: 50px;
+}
+.opinions__box-text {
+    margin-top: 33px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.opinions__column {
+    margin-right: 30px;
+}
+.opinions__column:last-child{
+    margin-right: 0px;
+}
+.opinion__client {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.opinions__row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-top: 27px;
+}
+.opinions__row-reverse {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-bottom: 27px;
+}
+.opinion__client-profession {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
 }
