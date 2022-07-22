@@ -30,8 +30,10 @@ a {
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 .history {   
+    max-width: 100%;
     background-image: url(../assets/history/back.png);
     background-repeat: no-repeat;
     display: flex;
@@ -52,7 +54,22 @@ a {
 .icon-story {
     margin-bottom: 30px;
 }
-
+.icon-story-2 {
+    margin-bottom: 30px;
+    margin-left: 55px;
+}
+.history__col-2 {
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.history__col-1 {
+    margin-right: 30px;
+    
+}
+.history__col-3 {
+    margin-right: 30px;
+    flex-basis: 105px;
+}
 .history__title {
     margin-top: 90px;
     margin-bottom: 13px;
@@ -65,7 +82,19 @@ a {
     text-transform: capitalize;
     color: #FFFFFF;
 }
-
+.history__title-2 {
+    margin-top: 90px;
+    margin-bottom: 13px;
+    margin-left: 55px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
 .history__subtitle {
     margin-bottom: 13px;
     font-family: 'Outfit';
@@ -88,7 +117,6 @@ a {
     color: #D7D7D7;
 }
 .history__content-3 {
-    max-width: 80%;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 400;
@@ -97,6 +125,7 @@ a {
     letter-spacing: 0.4px;
     color: #D7D7D7;
     margin-bottom: 37px;
+    margin-left: 55px;
 }
 .history__subtitle-3 {
     display: flex;
