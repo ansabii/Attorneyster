@@ -267,6 +267,7 @@ a {
 .team__title {
     margin-top: 124px;
     margin-bottom: 11px;
+    max-width: 692px;
     font-family: 'Cormorant Garamond';
     font-style: normal;
     font-weight: 400;
