@@ -430,3 +430,12 @@ a {
     letter-spacing: 0.4px;
     color: #1F2732;
 }
+.appointment__wrapper {
+    background-image: url(../assets/form/books.png);
+    max-width: 100%;
+    display: flex;
+}
+.appointment__inner {
+    background-color: #1F2732;
+    max-width: 95%;
+}
