@@ -445,14 +445,15 @@ a {
 .appointment__top {
     margin: 100px 90px 0px 100px;
     display: flex;
-    justify-content: space-between;
+    
 }
-.form__input-name, .form__input-phone, .form__input-mail, .form__input-subject, .form__input-message{
-    max-width: 100%;
+.form__input-name, .form__input-phone, .form__input-mail, .form__input-subject {
+    width: 100%;
     background-color: #1F2732;
     border: none;
     border-bottom: 1px solid #3B434E;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .form__input-name::placeholder, .form__input-phone::placeholder, .form__input-mail::placeholder, .form__input-subject::placeholder, .form__input-message::placeholder {
     font-family: 'Outfit';
@@ -462,6 +463,7 @@ a {
     line-height: 22px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
+    padding-top: 70px;
 }
 .appointment__row {
     margin: 67px 100px 100px 100px;
@@ -470,10 +472,37 @@ a {
     flex-direction: column;
     
 }
+.form__input-message::placeholder {
+    padding-bottom: 170px;
+}
+.appointment__column-1 {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    margin-right: 46px;
+}
+.appointment__column-2 {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+}
+.form__input-message {
+    width: 100%;
+    background-color: #1F2732;
+    border: none;
+    border-bottom: 1px solid #3B434E;
+    padding-bottom: 108px;
+    padding-top: 20px;
+}
+.appointment__button {
+    display: flex;
+    justify-content: center;
+}
 .form__button {
     background-color: #FFFFFF;
+    margin-top: 50px ;
     padding: 30px;
-    width: 244px;
+    width: 305px;
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 700;
@@ -481,11 +510,4 @@ a {
     line-height: 22px;
     letter-spacing: 0.4px;
     color: #3B434E;
-}
-.form__input-message::placeholder {
-    margin-bottom: 50px;
-}
-.appointment__column-1 {
-    display: flex;
-    flex-direction: column;
 }
