@@ -310,3 +310,123 @@ a {
     letter-spacing: 0.4px;
     color: #D1B06B;
 }
+
+.consult__wrapper {
+    max-width: 100%;
+    background-color:#161D27;
+}
+.consult__inner {
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+.consult__column {
+    flex-basis: 70%;
+    margin-top: 151px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 102px;
+}
+.consult__title {
+    margin-bottom: 10px;
+    max-width: 577px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}    
+.consult-logo {
+    max-width: 95px;
+}
+.consult__subtitle {
+    margin-top: 43px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.consult__card {
+    background: #FFFFFF;
+    border-radius: 0px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.consult__card-content {
+    margin: 40px;
+    border: 15px solid #D7D7D7;
+    border-radius: 0px;
+}
+.consult__card-inner {
+    margin: 65px 84px 78px 55px;
+}
+.consult__card-title {
+    margin-top: 65px;
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+.consult__card-subtitle {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #909090;
+}
+.consult__card-contact {
+    display: flex;
+    margin-top: 37px;
+}
+.consult__phone-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+.consult__phone-number {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+.phone-logo {
+    margin-right: 15px;
+}
+.consult__button {
+    padding: 25px 70px;
+    max-width: 257px;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    border-radius: 0px;
+    margin-top: 37px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
