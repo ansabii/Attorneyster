@@ -434,8 +434,58 @@ a {
     background-image: url(../assets/form/books.png);
     max-width: 100%;
     display: flex;
+    justify-content: center;
 }
 .appointment__inner {
     background-color: #1F2732;
-    max-width: 95%;
+    width: 1330px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.appointment__top {
+    margin: 100px 90px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.form__input-name, .form__input-phone, .form__input-mail, .form__input-subject, .form__input-message{
+    max-width: 100%;
+    background-color: #1F2732;
+    border: none;
+    border-bottom: 1px solid #3B434E;
+    padding-bottom: 20px;
+}
+.form__input-name::placeholder, .form__input-phone::placeholder, .form__input-mail::placeholder, .form__input-subject::placeholder, .form__input-message::placeholder {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.appointment__row {
+    margin: 67px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.form__button {
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 244px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #3B434E;
+}
+.form__input-message::placeholder {
+    margin-bottom: 50px;
+}
+.appointment__column-1 {
+    display: flex;
+    flex-direction: column;
 }
