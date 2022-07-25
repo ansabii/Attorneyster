@@ -25,13 +25,13 @@ a {
 }
 
 ._container, .footer-image {
-    max-width: 1360px;
+    width: 1360px;
     margin: 0 auto;
 }
 
 .news, .blogs{
     background-color: #1F2732;
-    max-width: 1360px;
+    width: 1360px;
     margin: 0 auto;
     }
     
@@ -134,4 +134,28 @@ a {
     padding: 22px 0 22px 0;
    }
 
-   
+   @media screen and (max-width:768px){
+    .news__last{
+        display: flex;
+flex-direction: column;
+width: 655px;
+margin: 0 auto;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+}
+    @media screen and (max-width:360px){
+        .news__last{
+    flex-direction: column;
+    width: 340px;
+    }
+
+    .news__last-image{
+        width: 90%;
+        padding: 70px 0 100px 0;
+    }
+}
