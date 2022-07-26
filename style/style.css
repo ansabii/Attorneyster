@@ -24,18 +24,20 @@ a {
     text-decoration: none;
 }
 
-._container, .footer-image {
+._container, .news, .blogs, .footer__container, .footer-image, .footer__container {
     width: 1360px;
     margin: 0 auto;
 }
 
-.news, .blogs{
+.news, .blogs, .footer__container{
     background-color: #1F2732;
-    width: 1360px;
-    margin: 0 auto;
+    }
+
+    .news, .news__last-header, .blogs__recent-header{
+        border-bottom: 1px solid #4E555F;
     }
     
-    .news__title, .news__last-title, .blogs__recent-title{
+    .news__title, .news__last-title, .blogs__recent-title, .footer-links-title{
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.4px;
@@ -48,7 +50,7 @@ a {
         line-height: 54px;
     }
 
-    .blogs__recent-title{
+    .blogs__recent-title, .footer-links-title{
         font-size: 30px;
         line-height: 39px;
     }
@@ -63,7 +65,7 @@ a {
     margin: 0 auto;
     }
     
-    .news__last, .news__last-header, .news__last-title, .news__title{
+    .news__last, .news__last-header, .news__last-title, .news__title, .footer__container-top, .footer__container-links, .footer-links-nav, .footer-contacts, .footer-copyright, .footer-social, .footer__container-buttom, .quick-links, .footer-social{
     display: flex;
     }
     
@@ -95,7 +97,7 @@ a {
     color: #4E555F;
     }
     
-    .news__last-info, .blogs__recent-info{
+    .news__last-info, .blogs__recent-info, .footer-copyright, .footer-social{
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -106,7 +108,6 @@ a {
     .news__footer-line{
         height: 1px; 
         color: #4E555F;
-
     }
     
     .blog-more{
@@ -133,6 +134,84 @@ a {
    .blogs__recent-header{
     padding: 22px 0 22px 0;
    }
+
+.footer__container-top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.footer-top-left, .footer-top-right{
+    width: 480px;
+}
+
+.footer__container, .footer__container-links{
+    padding-bottom: 80px;
+}
+
+.footer__nav-list-item, .footer-contacts-adresse, .footer-contacts-phone{
+padding-top: 20px;
+}
+
+.footer__nav-list-item, a, .footer-contacts-adresse, .footer-contacts-phone{
+height: 32px;
+    color: #D7D7D7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer-contacts{
+    width: 380px;
+    line-height: 48px;
+}
+
+.footer-contacts-adresse{
+    padding-bottom: 105px;
+    margin-top: -15px;
+}
+
+.footer__nav-list-item, a:hover {
+    color: #D1B06B;
+}
+
+.footer-links-title, .footer__container-buttom{
+    border-bottom: 1px solid #3B434E;
+    border-top: 1px solid #3B434E;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer__container-links, .footer__container-buttom, .quick-links, .footer-social{
+justify-content: space-between;
+}
+
+.quick-links{
+    width: 320px;
+}
+
+.utility-pages, .practice-area{
+    width: 185px;
+}
+
+.footer-contacts{
+    flex-direction: column;
+}
+
+.footer-copyright{
+    flex-direction: row;
+}
+
+span{
+padding-left: 10px;
+padding-right: 10px;
+color: #D1B06B;
+}
+
+.footer-social{
+    width: 225px;
+
+}
 
    @media screen and (max-width:768px){
     .news__last{
