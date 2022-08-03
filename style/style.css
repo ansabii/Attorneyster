@@ -438,7 +438,7 @@ a {
 }
 .appointment__inner {
     background-color: #1F2732;
-    width: 1330px;
+    max-width: 1330px;
     margin-top: 140px;
     margin-bottom: 140px;
 }
@@ -511,3 +511,264 @@ a {
     letter-spacing: 0.4px;
     color: #3B434E;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .history {   
+        max-width: 768px;
+        background-image: url(../assets/history/back.png);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    
+}
+    .history__wrapper {
+    max-width: 95%;
+    background-color: rgba(31, 39, 50, 0.85);
+    margin-bottom: 0px;
+    }
+
+    .history__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .history__col-1 {
+        margin-right: 0px;
+    }
+    .history__col-2 {
+        display: none;
+    }
+    .history__col-3 {
+        margin: 0px;
+    }
+    .icon-story,.icon-story-2 {
+        max-width: 100px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .history__title {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .history__title-2 {
+        margin: 0px;
+        padding-top: 20px ;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .history__content {
+        margin-bottom: 18px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+    }
+    .history__subtitle-3 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color:#FFFFFF;
+    }
+    .history__content-3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+}
+    .btn__consult {
+    padding: 15px 31px 15px 31px;
+    max-width: 55%;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    border-radius: 0px;
+    margin-top: 18px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+    .line {
+        margin-bottom: 18px;
+    }
+    .opinions__wrapper {
+        max-width: 768px;
+    }
+    .opinions__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .opinions__top {
+        margin-bottom: 20px;
+    }
+    .opinions__title {
+        margin-top: 64px;
+        margin-bottom: 11px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #FFFFFF;
+    }
+    .opinions__content {
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .opinions__row, .opinions__row-reverse {
+        justify-content: space-evenly;
+    }
+    .opinions__box {
+        padding: 20px;
+    }
+    .opinions__box-text {
+        margin-top: 13px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.4px;
+        color: #D7D7D7;
+    }
+    .opinions__column {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 15px;
+    }
+    .opinions__row {
+        margin-bottom: 15px;
+    }
+    .opinions__box-reverse {
+        padding: 20px;
+    }
+    .opinions__row-reverse {
+        margin-top: 20px;
+    }
+    
+    .team__inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .team__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .team__title {
+        margin-top: 54px;
+        margin-bottom: 11px;
+        max-width: 692px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #161D27;
+    }
+    .team__top {
+        margin-bottom:  50px; ;
+    }
+    .team__box-subtitle {
+        margin-bottom: 15px;
+    }
+    .consult__inner {
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .consult__title {
+        margin-bottom: 10px;
+        max-width: 577px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 58px;
+        letter-spacing: 0.4px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .consult__column {
+        margin-top: 54px;
+    }
+    .consult__card {
+        margin-top: 54px;
+        margin-bottom: 54px;
+    }
+    .consult__card-title {
+        margin-top: 25px;
+        margin-bottom: 12px;
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 32px;
+        line-height: 54px;
+        letter-spacing: 0.4px;
+        color: #1F2732;
+}
+    .appointment__inner {
+        max-width: 90%;
+        margin-top: 54px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .history__col-1 {
+        display: none;
+    }
+    .btn__consult {
+        padding: 10px;
+        max-width: 80%;
+    }
+    .consult__button {
+        padding: 10px;
+    }
