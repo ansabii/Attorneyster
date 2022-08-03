@@ -761,7 +761,7 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .history__col-1 {
         display: none;
     }
@@ -772,3 +772,4 @@ a {
     .consult__button {
         padding: 10px;
     }
+}
